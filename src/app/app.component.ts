@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  listData: any= [
+    {
+      firstName: "a",
+      lastName: "b"
+    }
+  ]
+  doSomething(infor){
+    this.listData.push(infor);
+  }
 }

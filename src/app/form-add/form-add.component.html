@@ -1,0 +1,8 @@
+<form action="/action_page.php">
+    <label for="fname">First name:</label><br>
+    <input type="text" [(ngModel)]="infor.firstName" name="fname" ><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" [(ngModel)]="infor.lastName" name="lname" ><br><br>
+    <input type="submit" (click)="saveData()" value="Submit">
+  </form> 
+  <hr>
